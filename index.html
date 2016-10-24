@@ -20,7 +20,7 @@
         $(document).ready(function() {
 
             $('#fullpage').fullpage({
-                sectionsColor: ['lightgreen', 'aqua', '#5AB1BB', '#579f2a', '#93c6d6', '#2998ce'],
+                sectionsColor: ['lightgreen', 'aqua', '#5AB1BB', '#579f2a', '#93c6d6', '#2998ce', '#2998ce'],
                 // anchors: ['home', 'Voortraject', 'OCA', 'Zomerproject', 'Praktijkopdracht', 'Smoelenboek'],
                 // menu: '#menu',
                 // scrollingSpeed: 1000
@@ -39,7 +39,8 @@
         <li data-menuanchor="OCA"><a href="#section2">OCA</a></li>
         <li data-menuanchor="Zomerproject"><a href="#section3">Zomerproject</a></li>
         <li data-menuanchor="Praktijkopdracht"><a href="#section4">Praktijkopdracht</a></li>
-        <li data-menuanchor="Smoelenboek"><a href="#section5">De Javanen</a></li>
+        <li data-menuanchor="Vragen"><a href="#section5">Vragen</a></li>
+        <li data-menuanchor="Smoelenboek"><a href="#section6">De Javanen</a></li>
     </ul>
 
     <div id="fullpage">
@@ -58,7 +59,8 @@
                     <h1>Het Voortraject</h1>
                     <br/>
                     <p>Om tot geschikte kandidaten voor de opleiding te komen heeft</p>
-                    <p>een voortraject plaatsgevonden, waaruit 12 personen werden geselecteerd</p>
+                    <p>een voortraject plaatsgevonden, waar uit de vele geïnteresseerden</p>
+                    <p>uiteindelijk 12 personen werden geselecteerd</p>
                     <br/>
                     <div class="button">Selectie</div><br>
                     <div class="button">Bootcamp</a></div><br>
@@ -194,8 +196,8 @@
                 <h1>Praktijkopdracht</h1>
                 <p>Kennismaken en ervaring opdoen met</p>
                 <p>actuele tools en technieken</p>
-                <br>
-                <img src="imgs/theorie-praktijk-22728511.jpg" alt="Architectuur">
+                </br>
+                <img src="imgs/theorie-praktijk-22728511.jpg" alt="Praktijk">
             </div>
 
             <div class="slide">
@@ -223,22 +225,19 @@
                 <img src="imgs/Application_Overview_2016-10-24.svg" alt="Architectuur">
                 <h2>Angular2 - Bootstrap <- REST -> Spring - JPA</h2>
             </div>
+            <div class="slide">
+                <h1>Klassediagram</h1>
+                <img class="foto" src="imgs/UML_Liebregts-2016-10-20.png" alt="Klassediagram">
+            </div>
 
             <div class="slide">
                 <h1>Tools & Technologies</h1>
-                <img src="imgs/logo overview.png" alt="Architectuur">
+                <img class="foto" src="imgs/logo overview.png" alt="Overzicht logo's'">
             </div>
 
             <div class="slide">
-                <h1>Angular2 components</h1><br/>
+                <h1>Angular2</h1>
                 <h1>Bootstrap styling en layout</h1>
-            </div>
-
-            <div class="slide">
-                <p>De knop</p><br/>
-				<img src="imgs/angular2_01.png" class="codesnippet" alt="Gebouw toevoegen">
-				<p>Formulier laten zien</p><br/>
-				<img src="imgs/angular2_02.png" class="smallcodesnippet" alt="Formulier laten zien"><br/><br/>
             </div>
 
             <div class="slide">
@@ -272,11 +271,19 @@
 
 		<!-- start of section 5 -->
         <div class="section" id="section5">
+            <h1>Vragen...</h1>
+            <input type="hidden" name="id" value="1" />
+            <img class="foto" src="imgs/vragen.png" alt="Vragen" />
+        </div>
+		<!--End of section 5 -->
+
+		<!-- start of section 6 -->
+        <div class="section" id="section6">
             <h1>En dit zijn wij...</h1>
             <input type="hidden" name="id" value="1" />
             <img class="foto" src="imgs/flyer.png" alt="De Javanen van Eindhoven Javagroep 2" />
         </div>
-		<!--End of section 5 -->
+		<!--End of section 6 -->
 
 
     </div>
