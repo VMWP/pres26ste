@@ -63,6 +63,18 @@ td {
     border-radius: 20px;
 }
 
+.codesnippet {
+    width: 80%;
+    border-radius: 20px;  
+    position: center center;  
+}
+
+.smallcodesnippet {
+    width: 40%;
+    border-radius: 20px;  
+    position: center center;  
+}
+
 .slide li {
     font-size: 3em;
     text-align: center;
@@ -76,7 +88,6 @@ td {
 
 #bootcamp {
     height: 30vh;
-    width: 45vw;
 }
 
 .cartoon {
