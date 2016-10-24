@@ -1,7 +1,190 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Presentatie woensdag 26-10-2016</title>
+    <meta name="author" content="Judith Crooy" />
+    <meta name="description" content="Eindpresentatie ProgramIt Java" />
+    <meta name="keywords" content="Java, programIt" />
+    <meta name="Resource-type" content="Document" />
+
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="examples.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="jquery.fullPage.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('#fullpage').fullpage({
+                sectionsColor: ['lightgreen', 'aqua', '#5AB1BB', '#DDD8C4', '#93c6d6', '#2998ce'],
+                anchors: ['home', 'Aanloop', 'OCA', 'Zomerproject', 'Praktijkopdracht', 'Smoelenboek'],
+                menu: '#menu',
+                scrollingSpeed: 1000
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!--Dit is het navigatiemenu links boven -->
+    <ul id="menu">
+        <li data-menuanchor="home"><a href="#home">Home</a></li>
+        <li data-menuanchor="De-aanloop"><a href="#section1">De aanloop</a></li>
+        <li data-menuanchor="OCA"><a href="#section2">OCA</a></li>
+        <li data-menuanchor="Zomerproject"><a href="#section3">Zomerproject</a></li>
+        <li data-menuanchor="Praktijkopdracht"><a href="#section4">Praktijkopdracht</a></li>
+        <li data-menuanchor="Smoelenboek"><a href="#section5">De Javanen</a></li>
+    </ul>
 
 
+    <div id="fullpage">
+
+        <div class="section active" id="home">
+            <img class="headerlogo" src="imgs/programitlogo152x77.png" alt="ProgramIT logo" />
+            <h2> Eindhoven Java 2</h2>
+            <input type="hidden" name="id" value="1" />
+            <img class="foto" src="imgs/teamfotoArdennen.jpg" alt="Teamfoto Ardennen" />
+        </div>
+
+        <!-- Hier begint de eerste sectie, met sliders -->
+        <div class="section" id="section1">
+            <div class="slide active">
+                <div class="voortraject">
+                    <h1>Het Voortraject</h1>
+                    <br/>
+                    <p>Om tot geschikte kandidaten voor de opleiding te komen heeft</p>
+                    <p>een voortraject plaatsgevonden, waar uit de vele geïnteresseerden</p>
+                    <p>uiteindelijk 12 personen werden geselecteerd</p>
+                    <br/>
+                    <div class="button">Selectie</div><br>
+                    <div class="button">Bootcamp</a>
+                    </div><br>
+                    <div class="button">Ardennenweek</div><br>
+                </div>
+            </div>
+
+            <div class="slide" id="selectie">
+                <div class="intro">
+                    <h1>Selecteren kandidaten</h1>
+                    <br/>
+                    <div class="button">Motivatie</div><br/>
+                    <div class="button">Persoonlijkheidstest</div><br/>
+                    <div class="button">Intelligentietest</div><br/>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="intro">
+                    <h1>Programmeer-bootcamp</h1>
+                    <p>Het doel van de drie daagse bootcamp was het<br/> testen van de aanleg van de kandidaten
+                    </p>
+                    <img id="bootcamp" src="imgs/bootcamp.jpg" alt="Teamfoto Ardennen" /><br/>
+                    <div class="button-sm">Voorbereiding</div><br/>
+                    <div class="button-sm">Eerste lessen</div><br/>
+                    <div class="button-sm">Eerste opdrachten</div><br/>
+                </div>
+            </div>
+        </div>
+        <!--End of section 1 -->
+
+        <div class="section" id="section2">
+            <h1>OCA Examen</h1>
+        </div>
+
+
+        <div class="section" id="section3">
+
+            <div class="slide">
+                <h1>Zomerproject</h1>
+                <p>Samenwerking tussen Eindhoven en Enschede</p>
+                <p>70-480 certificering: HTML5, Javascript, CSS3</p>
+                <br>
+                <img src="imgs/70-480_boek.jpg" alt="70-480 Examenboek">
+            </div>
+            <div class="slide">
+                <h1>Doelen</h1>
+                <ol>
+                    <li>1. Kennis binnen ProgramIt opbouwen</li>
+                    <li>2. Genereren van lesmateriaal - recursieve didactiek</li>
+                </ol>
+            </div>
+            <div class="slide">
+                <h1>Onderwerpen</h1>
+                <ul>
+                    <li>Document structuur & objecten</li>
+                    <li>Program Flow</li>
+                    <li>Data - veiligheid & bereikbaarheid</li>
+                    <li>CSS3 - styling</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <h1>HTML5</h1>
+                <p>Diverse onderwerpen gerelateerd aan de structuur van je webpagina</p>
+                <p>Bijvoorbeeld: semantische mark-up, SEO, canvas, SVG, HTML5 API's</p>
+                <img src="imgs/HTML5.png" class="plaatje" alt="HTML5 semantische mark-up">
+
+            </div>
+            <div class="slide">
+                <h1>Program flow</h1>
+                <p>Hoe zorg je ervoor dat je website interactief is</p>
+                <p>en de juist informatie laat zien op het juiste moment?</p>
+                <p>Bijvoorbeeld: Event handling, callbacks (Websocket API, AJAX),</p>
+                <p>JQuery, Webworkers</p>
+            </div>
+            <div class="slide">
+                <h1>Data</h1>
+                <p>Werken met statische en dynamische data</p>
+                <p>en beveiligen van je data</p>
+                <p>Bijvoorbeeld: user input validatie, API's, data conversie</p>
+            </div>
+            <div class="slide">
+                <h1>CSS3</h1>
+                <p>Werken met cascading style sheets, specifiek CSS3</p>
+                <p>Bijvoorbeeld: styling, lay-out, animaties</p>
+                <br>
+                <img src="imgs/No_CSS.png" class="plaatje" alt="Zonder CSS">
+            </div>
+            <div class="slide">
+                <h1>Resultaat</h1>
+                <p>Kennis op het gebied van webdevelopment opgedaan.</p>
+                <p>Interessant lesmateriaal opgeleverd, zowel presentaties, website, oefeningen als filmpjes</p>
+                <p>Komende weken laatste voorbereidingen & examen</p>
+            </div>
+        </div>
+        <!--End of section 3-->
+
+        <div class="section" id="section4">
+            <div class="slide">
+                <h1>Praktijkopdracht</h1>
+                <p>Kennismaken en ervaring opdoen met</p>
+                <p>actuele tools en technieken</p>
+                <br>
+                <img src="imgs/theorie-praktijk-22728511.jpg" alt="Architectuur">
+            </div>
+            <div class="slide">
+                <h1>Doelen</h1>
+                <ol>
+                    <li>1. Kennis binnen ProgramIt opbouwen</li>
+                    <li>2. Genereren van lesmateriaal - recursieve didactiek</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="section" id="section5">
+            <h1>En dit zijn wij...</h1>
+            <input type="hidden" name="id" value="1" />
+            <img class="foto" src="imgs/flyer.png" alt="De Javanen van Eindhoven Javagroep 2" />
+        </div>
+    </div>
+
+    </div>
+
+</body>
 
 </html>
