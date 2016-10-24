@@ -21,7 +21,7 @@
 
             $('#fullpage').fullpage({
                 sectionsColor: ['lightgreen', 'aqua', '#5AB1BB', '#579f2a', '#93c6d6', '#2998ce'],
-                // anchors: ['home', 'Aanloop', 'OCA', 'Zomerproject', 'Praktijkopdracht', 'Smoelenboek'],
+                // anchors: ['home', 'Voortraject', 'OCA', 'Zomerproject', 'Praktijkopdracht', 'Smoelenboek'],
                 // menu: '#menu',
                 // scrollingSpeed: 1000
             });
@@ -35,13 +35,12 @@
     <!--Dit is het navigatiemenu links boven -->
     <ul id="menu">
         <li data-menuanchor="home"><a href="#home">Home</a></li>
-        <li data-menuanchor="De-aanloop"><a href="#section1">De aanloop</a></li>
+        <li data-menuanchor="Het-voortraject"><a href="#section1">De aanloop</a></li>
         <li data-menuanchor="OCA"><a href="#section2">OCA</a></li>
         <li data-menuanchor="Zomerproject"><a href="#section3">Zomerproject</a></li>
         <li data-menuanchor="Praktijkopdracht"><a href="#section4">Praktijkopdracht</a></li>
         <li data-menuanchor="Smoelenboek"><a href="#section5">De Javanen</a></li>
     </ul>
-
 
     <div id="fullpage">
 
@@ -55,7 +54,7 @@
         <!-- Hier begint de eerste sectie, met sliders -->
         <div class="section" id="section1">
             <div class="slide active">
-                <div class="voortraject">
+                <div class="Voortraject">
                     <h1>Het Voortraject</h1>
                     <br/>
                     <p>Om tot geschikte kandidaten voor de opleiding te komen heeft</p>
@@ -94,9 +93,37 @@
         <!--End of section 1 -->
 
         <div class="section" id="section2">
-            <h1>OCA Examen</h1>
-        </div>
+            <div class="slide active">
+                <h1>OCA & Scrum</h1>
+                <div class="button-sm">Lessen</div><br/>
+                <div class="button-sm">Agile / Scrum</div><br/>
+                <div class="button-sm">OCA SE7 1Z0-803 examen</div><br/>
+            </div>
 
+            <div class="slide">
+                <h1>Lessen in OCA</h1>
+                <img src="imgs/OCAboek.jpg" alt="OCA boek">
+            </div>
+
+            <div class="slide">
+                <img id="scrumitlogo" src="imgs/scrumit.jpeg" alt="ScrumIT logo">
+                <br/>
+                <br/>
+                <h1>Agile / Scrum</h1>
+                <br/>
+                <div class="button-sm">ScrumIT</div><br/>
+                <div class="button-sm">scrum.org - Scrummaster I examen</div><br/>
+                <br/>
+                <img id="scrumitactie" src="imgs/scrumactie.jpg" alt="Scrumtraining">
+            </div>
+
+            <div class="slide">
+                <h1>OCA SE7 1Z0-803 examen</h1>
+                <div class="button-sm">Oracle</div><br/>
+                <div class="button-sm">OCA SE7 1Z0-803 examen</div><br/>
+                <img src="imgs/ocacertificate.png" alt="Official Oracle OCA certificate" id="ocaCert">
+            </div>
+        </div>
 
         <div class="section" id="section3">
 

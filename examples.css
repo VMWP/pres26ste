@@ -74,6 +74,15 @@ td {
     width: 30vh;
 }
 
+#scrumitlogo{
+    height: 10vh;
+}
+
+#scrumitactie{
+    height: 40vh;
+    width: 60vh;
+}
+
 #bootcamp {
     height: 30vh;
     width: 45vw;
