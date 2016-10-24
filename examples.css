@@ -57,6 +57,12 @@ td {
     border-radius: 20px;
 }
 
+.plaatje {
+    height: 40vh;
+    position: center center;
+    border-radius: 20px;
+}
+
 .headerlogo {
     height: 15vh;
     width: 30vh;
