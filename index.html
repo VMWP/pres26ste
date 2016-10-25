@@ -20,10 +20,10 @@
         $(document).ready(function() {
 
             $('#fullpage').fullpage({
-                sectionsColor: ['lightgreen', 'aqua', '#5AB1BB', '#579f2a', '#93c6d6', '#2998ce', '#2998ce'],
-                // anchors: ['home', 'Voortraject', 'OCA', 'Zomerproject', 'Praktijkopdracht', 'Smoelenboek'],
-                // menu: '#menu',
-                // scrollingSpeed: 1000
+                sectionsColor: ['#0B5563', '#71B48D', '#5AB1BB', '#579f2a', '#93c6d6', '#2998ce', '#5AB1BB'],
+                anchors: ['home', 'Voortraject', 'OCA', 'Zomerproject', 'Bedrijfsopdracht', 'Vragen', 'Smoelenboek'],
+                menu: '#menu',
+                scrollingSpeed: 1000
             });
         });
     </script>
@@ -47,7 +47,7 @@
         <div class="section active" id="home">
             <h1> Welkom bij ProgramIT </h1>
             <br><br>
-            <img class="headerlogo" src="imgs/programitlogo152x77.png" alt="ProgramIT logo" />
+            <img class="headerlogo" src="imgs/programIT_logo_large.jpg" alt="ProgramIT logo" />
             <input type="hidden" name="id" value="1" />
         </div>
 
@@ -57,13 +57,8 @@
                 <div class="Voortraject">
                     <h1>Het Voortraject</h1>
                     <br/>
-                    <p>Om tot geschikte kandidaten voor de opleiding te komen heeft</p>
-                    <p>een voortraject plaatsgevonden, waar uit de vele geïnteresseerden</p>
-                    <p>uiteindelijk 12 personen werden geselecteerd</p>
-                    <br/>
                     <div class="button">Selectie</div><br>
-                    <div class="button">Bootcamp</a>
-                    </div><br>
+                    <div class="button">Bootcamp</div><br>
                     <div class="button">Ardennenweek</div><br>
                 </div>
             </div>
@@ -81,11 +76,9 @@
             <div class="slide">
                 <div class="intro">
                     <h1>Programmeer-bootcamp</h1>
-                    <p>Het doel van de drie daagse bootcamp was het<br/> testen van de aanleg van de kandidaten
-                    </p>
                     <img src="imgs/bootcamp.jpg" class="plaatje" alt="Bootcamp" /><br/>
-                    <div class="button">Voorbereiding</div><br/>
-                    <div class="button">Eerste lessen</div><br/>
+                    <div class="button">Voorbereiding</div>
+                    <div class="button">Eerste lessen</div>
                     <div class="button">Eerste opdrachten</div><br/>
                 </div>
             </div>
@@ -104,13 +97,16 @@
             <div class="slide active">
                 <h1>OCA & Scrum</h1>
                 <div class="button">Lessen</div><br/>
-                <div class="button">Agile / Scrum</div><br/>
                 <div class="button">OCA SE7 1Z0-803 examen</div><br/>
+                <div class="button">Agile / Scrum</div><br/>
+
             </div>
 
             <div class="slide">
                 <h1>Lessen in OCA</h1>
-                <img src="imgs/OCAboek.jpg" alt="OCA boek">
+                <img src="imgs/OCAboek.jpg" class="plaatje" alt="OCA boek">
+                <img src="imgs/Java-logo-vector.png" class="headerlogo" alt="Java logo">
+
             </div>
 
             <div class="slide">
@@ -126,10 +122,13 @@
                 <br/>
                 <h1>Agile / Scrum</h1>
                 <br/>
-                <div class="button">ScrumIT</div><br/>
+                <div class="button">ScrumIT</div>
                 <div class="button">scrum.org - Scrummaster I examen</div><br/>
-                <br/>
-                <img id="scrumitactie" src="imgs/scrumactie.jpg" alt="Scrumtraining">
+
+                <img class="scrumitactie" src="imgs/scrumactie.jpg" alt="Scrumtraining">
+                <img class="scrumitactie" src="imgs/Scrumit-teamfoto.jpg" alt="Scrumtraining teamfoto">
+
+
             </div>
 
 
@@ -145,7 +144,7 @@
                 <p>Samenwerking tussen Eindhoven en Enschede</p>
                 <p>70-480 certificering: HTML5, Javascript, CSS3</p>
                 <br>
-                <img src="imgs/70-480_boek.jpg" alt="70-480 Examenboek">
+                <img src="imgs/70-480_boek.jpg" class="plaatje" alt="70-480 Examenboek">
             </div>
             <div class="slide">
                 <h1>Doelen</h1>
@@ -165,7 +164,7 @@
             </div>
             <div class="slide">
                 <h1>HTML5</h1>
-                <p>Diverse onderwerpen gerelateerd aan de structuur van je webpagina</p>
+                <p> Structuur van je webpagina</p>
                 <div class="button">Semantische mark-up</div>
                 <div class="button">SEO</div>
                 <div class="button">Canvas</div>
@@ -177,8 +176,7 @@
             </div>
             <div class="slide">
                 <h1>Program flow</h1>
-                <p>Hoe zorg je ervoor dat je website interactief is</p>
-                <p>en de juiste informatie laat zien op het juiste moment?</p>
+                <p>Interactie en dynamiek</p>
                 <div class="button">Event handling</div>
                 <div class="button">Websockets</div><br/>
                 <div class="button">AJAX</div>
@@ -187,7 +185,7 @@
             </div>
             <div class="slide">
                 <h1>Data</h1>
-                <p>Werken met statische en dynamische data en beveiligen van je data</p>
+                <p>Statische en dynamische data, beveiligen van je data</p>
                 <div class="button">User input validatie</div><br/>
                 <div class="button">Data ophalen met API's</div><br/>
                 <div class="button">Data conversie</div><br/>
@@ -199,7 +197,7 @@
                 <div class="button">Lay-out</div>
                 <div class="button">Animaties</div>
                 <br>
-                <img src="imgs/No_CSS.png" class="plaatje" alt="Zonder CSS">
+                <img src="imgs/css-awesome.png" class="plaatje" alt="CSS">
             </div>
             <div class="slide">
                 <h1>Resultaat</h1>
@@ -237,9 +235,18 @@
                 <p>betreffende het duurzaam onderhoud van gebouwen.</p>
                 <p>De applicatie is ter vervanging van een Excel bestand.</p>
                 </br>
-                <h2>Klant - Project - Gebouw - Gevel - Gevelonderdeel - Merkonderdeel</h2>
-                </br>
-                <h2>Naam - Oriëntatie - Foto - Afmetingen - Onderhoudscyclus - Prijs</h2>
+                <div class="button">Klant</div>
+                <div class="button">Project</div>
+                <div class="button">Gebouw</div>
+                <div class="button">Gevel</div>
+                <div class="button">Gevelonderdeel</div>
+                <div class="button">Merkonderdeel</div><br/>
+                <div class="button">Naam</div>
+                <div class="button">Oriëntatie</div>
+                <div class="button">Foto</div>
+                <div class="button">Afmetingen</div>
+                <div class="button">Onderhoudscyclus</div>
+                <div class="button">Prijs</div>
             </div>
             <div class="slide">
                 <h1>Klassendiagram</h1>
@@ -247,15 +254,15 @@
             </div>
             <div class="slide">
                 <h1>Architectuur</h1>
-                <img src="imgs/Application_Overview_2016-10-24.svg" alt="Architectuur">
-                <h2>Angular2 - Bootstrap
-                    <- REST -> Spring - JPA</h2>
+                <img src="imgs/Application_Overview_2016-10-24.svg" class="plaatje" alt="Architectuur">
+                <p>Angular2 - Bootstrap
+                    <- REST -> Spring - JPA</p>
             </div>
             <div class="slide">
                 <h1>MVC</h1>
                 </br>
-                <h2>In de app zijn Model, View en Control onafhankelijk van elkaar.</h2>
-                <h2>De User Interface en database kunnen eenvoudig worden vervangen door andere.</h2>
+                <p>In de app zijn Model, View en Control onafhankelijk van elkaar.</p>
+                <p>De User Interface en database kunnen eenvoudig worden vervangen door andere.</p>
             </div>
             <div class="slide">
                 <h1>Tools & Technologies</h1>
@@ -268,24 +275,24 @@
             </div>
 
             <div class="slide">
-                <p>De knop</p><br/>
+                <h2>De knop</h2><br/>
                 <img src="imgs/angular2_01_wit.png" class="codesnippet" alt="Gebouw toevoegen">
-                <p>Formulier laten zien</p><br/>
+                <h2>Formulier laten zien</h2><br/>
                 <img src="imgs/angular2_02_wit.png" class="smallcodesnippet" alt="Formulier laten zien"><br/><br/>
             </div>
 
             <div class="slide">
-                <p>Het formulier:</p><br/>
+                <h2>Het formulier:</h2><br/>
                 <img src="imgs/angular2_03_wit.png" class="codesnippet" alt="Gebouw toevoegen">
             </div>
 
             <div class="slide">
-                <p>Informatie overdracht:</p><br/>
+                <h2>Informatie overdracht:</h2><br/>
                 <img src="imgs/angular2_04_wit.png" class="codesnippet" alt="Gebouw toevoegen">
             </div>
 
             <div class="slide">
-                <p>De service</p><br/>
+                <h2>De service</h2><br/>
                 <img src="imgs/angular2_05_wit.png" class="codesnippet" alt="Gebouw toevoegen">
             </div>
 
@@ -299,7 +306,6 @@
         <!-- start of section 5 -->
         <div class="section" id="section5">
             <h1>Vragen...</h1>
-            <input type="hidden" name="id" value="1" />
             <img class="foto" src="imgs/vragen.png" alt="Vragen" />
         </div>
         <!--End of section 5 -->
@@ -307,7 +313,6 @@
         <!-- start of section 6 -->
         <div class="section" id="section6">
             <h1>En dit zijn wij...</h1>
-            <input type="hidden" name="id" value="1" />
             <img class="foto" src="imgs/flyer.png" alt="De Javanen van Eindhoven Javagroep 2" />
         </div>
         <!--End of section 6 -->
