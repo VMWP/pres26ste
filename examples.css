@@ -51,9 +51,6 @@ td {
     font-size: 2.5em;
 }
 
-p{
-    font-size: 3em;
-}
 .foto {
     height: 70vh;
     position: center center;
@@ -61,7 +58,7 @@ p{
 }
 
 .plaatje {
-    height: 40vh;
+    height: 50vh;
     position: center center;
     border-radius: 20px;
 }
@@ -85,7 +82,7 @@ p{
 }
 
 .headerlogo {
-    width: 30vh;
+    width: 50vh;
     border-radius: 20px;
 }
 
@@ -94,7 +91,7 @@ p{
     border-radius: 20px;
 }
 
-#scrumitactie {
+.scrumitactie {
     height: 40vh;
     width: 60vh;
     border-radius: 20px;
@@ -197,11 +194,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 4em;
 }
 
 p {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .intro p {
