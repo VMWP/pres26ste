@@ -51,6 +51,10 @@ td {
     font-size: 1.5em;
 }
 
+p {
+    color: white;
+}
+
 .foto {
     height: 70vh;
     position: center center;
@@ -65,20 +69,21 @@ td {
 
 .codesnippet {
     width: 80%;
-    border-radius: 20px;  
-    position: center center;  
+    border-radius: 20px;
+    position: center center;
 }
 
 .smallcodesnippet {
     width: 40%;
-    border-radius: 20px;  
-    position: center center;  
+    border-radius: 20px;
+    position: center center;
 }
 
 .slide li {
     font-size: 3em;
     text-align: center;
     list-style-type: none;
+    color: white;
 }
 
 .headerlogo {
@@ -86,13 +91,15 @@ td {
     width: 30vh;
 }
 
-#scrumitlogo{
+#scrumitlogo {
     height: 10vh;
+    border-radius: 20px;
 }
 
-#scrumitactie{
+#scrumitactie {
     height: 40vh;
     width: 60vh;
+    border-radius: 20px;
 }
 
 #bootcamp {
