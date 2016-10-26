@@ -75,6 +75,12 @@ td {
     position: center center;
 }
 
+.othercodesnippet {
+    width: 65%;
+    border-radius: 20px;
+    position: center center;
+}
+
 .slide li {
     font-size: 3em;
     text-align: center;
